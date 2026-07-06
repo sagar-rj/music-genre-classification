@@ -2,7 +2,6 @@
 
 A Python project to classify music tracks into genres using classical ML (Random Forest) and a CNN (mel-spectrogram based). Includes training scripts and a Streamlit inference app.
 ---
-## This project is maintained by Sagar Raj, Amit Kumar & Kareena Kumari
 ## Repo layout
 - [app/streamlit_app.py](app/streamlit_app.py) — Streamlit UI and inference; uses the [`predict_genre`](app/streamlit_app.py) function and the loaded [`model`](app/streamlit_app.py).
 - [models/genre_cnn_model.h5](models/genre_cnn_model.h5) — example CNN model checkpoint (may be replaced by the serialized model used by the app).
